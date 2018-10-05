@@ -1,5 +1,5 @@
 FROM fusl/steamcmd
-ENV VERSION=3184073
+ENV VERSION=3184412
 RUN mkdir /app \
  && /steamcmd/steamcmd.sh +login anonymous +force_install_dir /app +app_update 258550 +exit \
  && sync
